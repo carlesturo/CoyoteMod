@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>CoyotePup_onhook</m_Name>
+	<m_AnimName>CoyotePup_OnHook</m_AnimName>
+    <m_Conditions>
+        <m_Name>isCoyotePup</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+</animNode>

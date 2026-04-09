@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>CoyotePup_defaultPathfind</m_Name>
+	<m_AnimName>CoyotePup_Walk</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+    <m_Conditions>
+        <m_Name>isCoyotePup</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Conditions x_name="b270ebe2-7459-4706-9578-62907149d38d">
+		<m_Name>bMoving</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="5be2b75b-f6af-415f-a8aa-360b65e3efac">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.25</m_TimePc>
+		<m_ParameterValue>walkFront</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f7743c24-8057-4c90-8b86-20da2eeb8da4">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.41</m_TimePc>
+		<m_ParameterValue>walkBack</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="8676a421-b6c8-43f0-8c73-948c01eb2659">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.62</m_TimePc>
+		<m_ParameterValue>walkFront</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="1fa809a5-23bd-4a16-b244-5ece5d34ed89">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.96</m_TimePc>
+		<m_ParameterValue>walkBack</m_ParameterValue>
+	</m_Events>
+</animNode>

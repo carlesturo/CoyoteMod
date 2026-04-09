@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>Coyote_hitreaction1</m_Name>
+	<m_AnimName>Coyote_Idle01</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.25</m_BlendTime>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+    <m_Conditions>
+        <m_Name>isCoyote</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Events x_name="de467bc2-0fe6-42ed-9bc2-32180f74b1e2">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>pain</m_ParameterValue>
+	</m_Events>
+</animNode>

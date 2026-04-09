@@ -1,0 +1,261 @@
+tileGeometry
+{
+    VERSION = 2,
+
+    tileset
+    {
+        name = rugs_animals_coyote,
+
+        /* rugs_animals_coyote_0 */
+        tile
+        {
+            xy = 0x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_1 */
+        tile
+        {
+            xy = 1x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_2 */
+        tile
+        {
+            xy = 2x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_3 */
+        tile
+        {
+            xy = 3x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_4 */
+        tile
+        {
+            xy = 4x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_5 */
+        tile
+        {
+            xy = 5x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_6 */
+        tile
+        {
+            xy = 6x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_7 */
+        tile
+        {
+            xy = 7x0,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_8 */
+        tile
+        {
+            xy = 0x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_9 */
+        tile
+        {
+            xy = 1x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_10 */
+        tile
+        {
+            xy = 2x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_11 */
+        tile
+        {
+            xy = 3x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_12 */
+        tile
+        {
+            xy = 4x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_13 */
+        tile
+        {
+            xy = 5x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_14 */
+        tile
+        {
+            xy = 6x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_15 */
+        tile
+        {
+            xy = 7x1,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_16 */
+        tile
+        {
+            xy = 0x2,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+
+        /* rugs_animals_coyote_17 */
+        tile
+        {
+            xy = 1x2,
+
+            box
+            {
+                translate = 0x0x0,
+                rotate = 0x0x0,
+                min = -5000x0x-5000,
+                max = 5000x351x5000,
+            }
+        }
+    }
+}

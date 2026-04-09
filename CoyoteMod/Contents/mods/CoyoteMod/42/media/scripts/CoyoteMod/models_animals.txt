@@ -1,0 +1,62 @@
+module CoyoteMod
+{
+/* PUP */
+    model CoyotePup
+    {
+        mesh = CoyoteMod/Skinned/CoyotePup,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyotePup,
+    }
+    model CoyotePup_Headless
+    {
+        mesh = CoyoteMod/Skinned/CoyotePup_Headless,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyotePup,
+    }
+    model CoyotePup_Skeleton
+    {
+        mesh = CoyoteMod/Skinned/CoyotePup_Skeleton,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyotePup,
+    }
+    model CoyotePup_Skeleton_NoHead
+    {
+        mesh = CoyoteMod/Skinned/CoyotePup_Skeleton_NoHead,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyotePup,
+    }
+
+/* FEMALE & MALE */
+    model Coyote
+    {
+        mesh = CoyoteMod/Skinned/Coyote,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyoteFemaleAndMale,
+    }
+    model Coyote_Headless
+    {
+        mesh = CoyoteMod/Skinned/Coyote_Headless,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyoteFemaleAndMale,
+    }
+    model Coyote_Skeleton
+    {
+        mesh = CoyoteMod/Skinned/Coyote_Skeleton,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyoteFemaleAndMale,
+    }
+    model Coyote_Skeleton_NoHead
+    {
+        mesh = CoyoteMod/Skinned/Coyote_Skeleton_NoHead,
+        shader = animalEffect,
+        static = false,
+        animationsMesh = CoyoteMod.CoyoteFemaleAndMale,
+    }
+}

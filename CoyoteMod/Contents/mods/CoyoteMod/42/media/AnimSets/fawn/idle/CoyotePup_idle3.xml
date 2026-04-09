@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="CoyotePup_idle2.xml">
+	<m_Name>CoyotePup_idle3</m_Name>
+	<m_AnimName>CoyotePup_Idle03</m_AnimName>
+    <m_Conditions>
+        <m_Name>isCoyotePup</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Conditions x_name="4d2f903a-3eca-4fb6-84d2-d5b4c4d903ce">
+		<m_Value>idle2</m_Value>
+	</m_Conditions>
+</animNode>

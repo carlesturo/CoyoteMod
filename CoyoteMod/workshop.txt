@@ -1,0 +1,6 @@
+version=1
+id=
+title=Coyote Mod [42MP]
+description=Add coyotes to the game.
+tags=
+visibility=public

@@ -1,0 +1,9 @@
+module CoyoteMod
+{
+    model Dung_Coyote
+    {
+        mesh = CoyoteMod/WorldItems/Dung_Coyote,
+		texture = WorldItems/Dung_Coyote,
+        scale = 0.1,
+    }
+}

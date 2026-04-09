@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>CoyotePup_run</m_Name>
+	<m_AnimName>CoyotePup_Run</m_AnimName>
+	<m_BlendTime>0.75</m_BlendTime>
+    <m_Conditions>
+        <m_Name>isCoyotePup</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Conditions x_name="2700eb68-e4ff-49bd-ac45-ebf31dbdcf13">
+		<m_Name>animalRunning</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="998eaedb-4d15-4723-b215-e4773d74c1c6">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.27</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+</animNode>

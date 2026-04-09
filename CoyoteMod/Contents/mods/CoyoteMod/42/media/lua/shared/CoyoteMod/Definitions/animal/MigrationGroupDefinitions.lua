@@ -1,0 +1,35 @@
+MigrationGroupDefinitions = MigrationGroupDefinitions or {};
+
+MigrationGroupDefinitions["coyote"] = {};
+MigrationGroupDefinitions["coyote"].male = "coyotemale";
+MigrationGroupDefinitions["coyote"].female = "coyotefemale";
+MigrationGroupDefinitions["coyote"].baby = "coyotepup";
+MigrationGroupDefinitions["coyote"].minAnimal = 3; -- min & max animals are purely for female, baby & males will be outside this count
+MigrationGroupDefinitions["coyote"].maxAnimal = 8;
+MigrationGroupDefinitions["coyote"].maxMale = 2; -- male will be generated first
+MigrationGroupDefinitions["coyote"].babyChance = 20; -- percentage, here 20% of the female will have a baby with them
+MigrationGroupDefinitions["coyote"].possibleBreed = "swamp,appalachian,cottontail"; -- list separated by ","
+MigrationGroupDefinitions["coyote"].minTimeBeforeSleep = 1500; -- in minutes
+MigrationGroupDefinitions["coyote"].maxTimeBeforeSleep = 1900; -- in minutes
+MigrationGroupDefinitions["coyote"].minTimeBeforeEat = 1200; -- in minutes
+MigrationGroupDefinitions["coyote"].maxTimeBeforeEat = 1800; -- in minutes
+MigrationGroupDefinitions["coyote"].eatPeriodStart = "5,16"; -- define a sleep period, here deer will try to eat for 60mins from 5am to 7am for ex. this is a list separated by ",", so you can have 12,16 in period start, and 13,17 in periodEnd, meaning they'll eat from 12 to 13 and then from 16 to 17
+MigrationGroupDefinitions["coyote"].eatPeriodEnd = "7,18";
+MigrationGroupDefinitions["coyote"].timeToEat = 100; -- in minutes
+MigrationGroupDefinitions["coyote"].sleepPeriodStart = "12"; -- define a sleep period, here deer will try to sleep for 30mins from noon to 4pm.
+MigrationGroupDefinitions["coyote"].sleepPeriodEnd = "16";
+MigrationGroupDefinitions["coyote"].timeToSleep = 30; -- in minutes
+MigrationGroupDefinitions["coyote"].speed = 0.5; -- 1 is the base speed, 3 would be x3 speed etc.
+MigrationGroupDefinitions["coyote"].trackChance = 13000; -- chance per tick
+MigrationGroupDefinitions["coyote"].poopChance = 10000; -- chance per tick
+MigrationGroupDefinitions["coyote"].brokenTwigsChance = 35000;
+MigrationGroupDefinitions["coyote"].herbGrazeChance = 4000; -- used when eating
+MigrationGroupDefinitions["coyote"].furChance = 4000; -- used when sleeping
+MigrationGroupDefinitions["coyote"].flatHerbChance = 4000; -- used when sleeping
+MigrationGroupDefinitions["coyote"].trackSize = "large"; -- used when investigating a track, if your level in tracking is too low you'll see "large" "medium" etc. otherwise the name of the animal.
+
+MigrationGroupDefinitions["large"] = {};
+MigrationGroupDefinitions["large"].groups = {};
+MigrationGroupDefinitions["large"].groups.coyote = {};
+MigrationGroupDefinitions["large"].groups.coyote.animal ="coyote";
+MigrationGroupDefinitions["large"].groups.coyote.chance = 100;

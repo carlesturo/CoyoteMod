@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>CoyotePup_eating</m_Name>
+	<m_AnimName>CoyotePup_IdleEating01</m_AnimName>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+    <m_Conditions>
+        <m_Name>isCoyotePup</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Conditions x_name="8943c2d7-310b-4c5f-b108-f417778b39ca">
+		<m_Name>idleAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>eat</m_Value>
+	</m_Conditions>
+	<m_Events x_name="f4ea29ad-eb96-41e1-8991-075f9a0c70f3">
+		<m_EventName>idleActionEnd</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

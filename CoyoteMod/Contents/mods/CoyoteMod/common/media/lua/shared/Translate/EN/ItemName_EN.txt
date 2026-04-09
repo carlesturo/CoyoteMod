@@ -1,0 +1,29 @@
+ItemName_EN = {
+    /* HEADS */
+    ItemName_CoyoteMod.CoyotePup_Head = "Coyote Pup Head"
+    ItemName_CoyoteMod.CoyoteFemale_Head = "Coyote Female Head"
+    ItemName_CoyoteMod.CoyoteMale_Head = "Coyote Male Head"
+
+    /* SKULLS */
+    ItemName_CoyoteMod.CoyotePup_Skull = "Coyote Pup Skull"
+    ItemName_CoyoteMod.CoyoteFemale_Skull = "Coyote Female Skull"
+    ItemName_CoyoteMod.CoyoteMale_Skull = "Coyote Male Skull"
+
+    /* MEAT */
+    ItemName_CoyoteMod.Coyote_Steak = "Coyote Steak"
+    ItemName_CoyoteMod.Coyote_Loin = "Coyote Loin"
+
+    /* DUNG */
+    ItemName_CoyoteMod.Dung_Coyote = "Coyote Dung"
+
+    /* LEATHERS */
+    ItemName_CoyoteMod.CoyotePupLeather_Full = "Coyote Pup Hide (Unprocessed)"
+    ItemName_CoyoteMod.CoyotePupLeather_Fur = "Coyote Pup Hide (Furred)"
+    ItemName_CoyoteMod.CoyotePupLeather_Fur_Tan_Wet = "Coyote Pup Leather (Furred, Wet)"
+    ItemName_CoyoteMod.CoyotePupLeather_Fur_Tan = "Coyote Pup Leather (Furred)"
+    ItemName_CoyoteMod.CoyoteLeather_Full = "Coyote Hide (Unprocessed)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur = "Coyote Hide (Furred)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur_Tan_Wet = "Coyote Leather (Furred, Wet)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur_Tan = "Coyote Leather (Furred)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur_Tan_Small = "Coyote Leather Half (Furred)"
+}

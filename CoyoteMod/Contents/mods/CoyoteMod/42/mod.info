@@ -1,0 +1,10 @@
+name=Coyote Mod [42MP]
+id=Coyote
+description=Add coyotes to the game.
+poster=poster.png
+icon=icon.png
+pack=CoyoteMod
+tiledef=CoyoteMod 1999
+modversion=1.0.0
+versionMin=42.13.0
+author=carlesturo

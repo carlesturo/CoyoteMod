@@ -1,0 +1,78 @@
+module CoyoteMod
+{
+/* STEAK */
+    model CoyoteSteak
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteSteak,
+        texture = WorldItems/CoyoteSteak_Raw,
+        scale = 0.3,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0324 0.0142 -0.0156,
+            rotate = -97.9031 -19.3314 -173.2481,
+            scale = 0.865,
+        }
+    }
+    model CoyoteSteakCooked
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteSteak,
+        texture = WorldItems/CoyoteSteak_Cooked,
+        scale = 0.3,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0324 0.0142 -0.0156,
+            rotate = -97.9031 -19.3314 -173.2481,
+            scale = 0.865,
+        }
+    }
+    model CoyoteSteakBurnt
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteSteak,
+        texture = WorldItems/CoyoteSteak_Burnt,
+        scale = 0.3,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0324 0.0142 -0.0156,
+            rotate = -97.9031 -19.3314 -173.2481,
+            scale = 0.865,
+        }
+    }
+    model CoyoteSteakRotten
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteSteak,
+        texture = WorldItems/CoyoteSteak_RawRotten,
+        scale = 0.3,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0324 0.0142 -0.0156,
+            rotate = -97.9031 -19.3314 -173.2481,
+            scale = 0.865,
+        }
+    }
+
+/* LOIN */
+    model CoyoteLoin
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteLoin,
+        texture = WorldItems/CoyoteLoin_Raw,
+        scale = 0.1,
+    }
+    model CoyoteLoinCooked
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteLoin,
+        texture = WorldItems/CoyoteLoin_Cooked,
+        scale = 0.1,
+    }
+    model CoyoteLoinBurnt
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteLoin,
+        texture = WorldItems/CoyoteLoin_OverDone,
+        scale = 0.1,
+    }
+    model CoyoteLoinRotten
+    {
+        mesh = CoyoteMod/WorldItems/CoyoteLoin,
+        texture = WorldItems/CoyoteLoin_RawRotten,
+        scale = 0.1,
+    }
+}

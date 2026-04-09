@@ -1,0 +1,375 @@
+version = 1
+tileset
+{
+    file = crafted_coyote
+    size = 8,2
+    id = 1
+    // crafted_coyote_0
+    tile
+    {
+        xy = 0,0
+        MaterialType = Fabric
+    }
+    // crafted_coyote_1
+    tile
+    {
+        xy = 1,0
+        MaterialType = Fabric
+    }
+    // crafted_coyote_2
+    tile
+    {
+        xy = 2,0
+        MaterialType = Fabric
+    }
+    // crafted_coyote_3
+    tile
+    {
+        xy = 3,0
+        MaterialType = Fabric
+    }
+    // crafted_coyote_8
+    tile
+    {
+        xy = 0,1
+        MaterialType = Fabric
+    }
+    // crafted_coyote_9
+    tile
+    {
+        xy = 1,1
+        MaterialType = Fabric
+    }
+}
+tileset
+{
+    file = crafted_skins_drying_coyote
+    size = 8,2
+    id = 2
+    // crafted_skins_drying_coyote_0
+    tile
+    {
+        xy = 0,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_1
+    tile
+    {
+        xy = 1,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_2
+    tile
+    {
+        xy = 2,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_3
+    tile
+    {
+        xy = 3,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_4
+    tile
+    {
+        xy = 4,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_5
+    tile
+    {
+        xy = 5,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_6
+    tile
+    {
+        xy = 6,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_7
+    tile
+    {
+        xy = 7,0
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_8
+    tile
+    {
+        xy = 0,1
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_9
+    tile
+    {
+        xy = 1,1
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_12
+    tile
+    {
+        xy = 4,1
+        MaterialType = Fabric
+    }
+    // crafted_skins_drying_coyote_13
+    tile
+    {
+        xy = 5,1
+        MaterialType = Fabric
+    }
+}
+tileset
+{
+    file = rugs_animals_coyote
+    size = 8,3
+    id = 3
+    // rugs_animals_coyote_0
+    tile
+    {
+        xy = 0,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = W
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,1
+    }
+    // rugs_animals_coyote_1
+    tile
+    {
+        xy = 1,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = W
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,0
+    }
+    // rugs_animals_coyote_2
+    tile
+    {
+        xy = 2,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = W
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,1
+    }
+    // rugs_animals_coyote_3
+    tile
+    {
+        xy = 3,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = W
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,0
+    }
+    // rugs_animals_coyote_4
+    tile
+    {
+        xy = 4,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = N
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,1
+    }
+    // rugs_animals_coyote_5
+    tile
+    {
+        xy = 5,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = N
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,1
+    }
+    // rugs_animals_coyote_6
+    tile
+    {
+        xy = 6,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = N
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,0
+    }
+    // rugs_animals_coyote_7
+    tile
+    {
+        xy = 7,0
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = N
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,0
+    }
+    // rugs_animals_coyote_8
+    tile
+    {
+        xy = 0,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,1
+    }
+    // rugs_animals_coyote_9
+    tile
+    {
+        xy = 1,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,0
+    }
+    // rugs_animals_coyote_10
+    tile
+    {
+        xy = 2,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,1
+    }
+    // rugs_animals_coyote_11
+    tile
+    {
+        xy = 3,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,0
+    }
+    // rugs_animals_coyote_12
+    tile
+    {
+        xy = 4,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,1
+    }
+    // rugs_animals_coyote_13
+    tile
+    {
+        xy = 5,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,1
+    }
+    // rugs_animals_coyote_14
+    tile
+    {
+        xy = 6,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 0,0
+    }
+    // rugs_animals_coyote_15
+    tile
+    {
+        xy = 7,1
+        CustomItem = CoyoteMod.CoyoteLeather_Fur_Tan
+        CustomName = Hide
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Coyote
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 30
+        SpriteGridPos = 1,0
+    }
+    // rugs_animals_coyote_16
+    tile
+    {
+        xy = 0,2
+        CustomItem = CoyoteMod.CoyotePupLeather_Fur_Tan
+        CustomName = Hide
+        Facing = W
+        GroupName = Coyote Pup
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 10
+    }
+    // rugs_animals_coyote_17
+    tile
+    {
+        xy = 1,2
+        CustomItem = CoyoteMod.CoyotePupLeather_Fur_Tan
+        CustomName = Hide
+        Facing = N
+        GroupName = Coyote Pup
+        IsMoveAble = 
+        MoveType = FloorRug
+        PickUpWeight = 10
+    }
+}

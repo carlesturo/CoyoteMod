@@ -1,0 +1,70 @@
+module CoyoteMod
+{
+/* PUP */
+    model CoyotePup_Head
+    {
+        mesh = CoyoteMod/WorldItems/CoyotePup_Head,
+        texture = Body/CoyotePup,
+    }
+    model CoyotePup_HeadRotten
+    {
+        mesh = CoyoteMod/WorldItems/CoyotePup_Head,
+        texture = Body/Coyote_Rotting,
+    }
+    model CoyotePup_Skull
+    {
+        mesh = CoyoteMod/WorldItems/CoyotePup_Skull,
+        texture = Body/Coyote_Skeleton,
+    }
+
+/* FEMALE */
+    model CoyoteFemale_Head
+    {
+        mesh = CoyoteMod/WorldItems/Coyote_Head,
+        texture = Body/Coyote,
+        scale = 0.92,
+    }
+    model CoyoteFemale_HeadRotten
+    {
+        mesh = CoyoteMod/WorldItems/Coyote_Head,
+        texture = Body/Coyote_Rotting,
+        scale = 0.92,
+    }
+    model CoyoteFemale_Skull
+    {
+        mesh = CoyoteMod/WorldItems/Coyote_Skull,
+        texture = Body/Coyote_Skeleton,
+        scale = 0.92,
+    }
+
+/* MALE */
+    model CoyoteMale_Head
+    {
+        mesh = CoyoteMod/WorldItems/Coyote_Head,
+        texture = Body/Coyote,
+    }
+    model CoyoteMale_HeadRotten
+    {
+        mesh = CoyoteMod/WorldItems/Coyote_Head,
+        texture = Body/Coyote_Rotting,
+    }
+    model CoyoteMale_Skull
+    {
+        mesh = CoyoteMod/WorldItems/Coyote_Skull,
+        texture = Body/Coyote_Skeleton,
+    }
+
+/* LEATHERS */
+    model Leather_Coyote_Medium
+    {
+        mesh = WorldItems/Leather_Rolled,
+        texture = WorldItems/LeatherRolled_Coyote,
+        scale = 0.08,
+    }
+    model Leather_Coyote_Small
+    {
+        mesh = WorldItems/Leather_Rolled,
+        texture = WorldItems/LeatherRolled_Coyote,
+        scale = 0.055,
+    }
+}

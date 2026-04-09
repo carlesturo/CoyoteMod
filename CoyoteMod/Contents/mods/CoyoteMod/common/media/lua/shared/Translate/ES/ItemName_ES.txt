@@ -1,0 +1,29 @@
+ItemName_ES = {
+    /* HEADS */
+    ItemName_CoyoteMod.CoyotePup_Head = "Cabeza de Cachorro de Coyote"
+    ItemName_CoyoteMod.CoyoteFemale_Head = "Cabeza de Coyote Hembra"
+    ItemName_CoyoteMod.CoyoteMale_Head = "Cabeza de Coyote Macho"
+
+    /* SKULLS */
+    ItemName_CoyoteMod.CoyotePup_Skull = "Cráneo de Cachorro de Coyote"
+    ItemName_CoyoteMod.CoyoteFemale_Skull = "Cráneo de Coyote Hembra"
+    ItemName_CoyoteMod.CoyoteMale_Skull = "Cráneo de Coyote Macho"
+
+    /* MEAT */
+    ItemName_CoyoteMod.Coyote_Steak = "Filete de Coyote"
+    ItemName_CoyoteMod.Coyote_Loin = "Lomo de Coyote"
+
+    /* DUNG */
+    ItemName_CoyoteMod.Dung_Coyote = "Excremento de Coyote"
+
+    /* LEATHERS */
+    ItemName_CoyoteMod.CoyotePupLeather_Full = "Piel de Cachorro de Coyote (Sin Procesar)"
+    ItemName_CoyoteMod.CoyotePupLeather_Fur = "Piel de Cachorro de Coyote (Con Pelaje)"
+    ItemName_CoyoteMod.CoyotePupLeather_Fur_Tan_Wet = "Cuero de Cachorro de Coyote (Con Pelaje, Húmedo)"
+    ItemName_CoyoteMod.CoyotePupLeather_Fur_Tan = "Cuero de Cachorro de Coyote (Con Pelaje)"
+    ItemName_CoyoteMod.CoyoteLeather_Full = "Piel de Coyote (Sin Procesar)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur = "Piel de Coyote (Con Pelaje)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur_Tan_Wet = "Cuero de Coyote (Con Pelaje, Húmedo)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur_Tan = "Cuero de Coyote (Con Pelaje)"
+    ItemName_CoyoteMod.CoyoteLeather_Fur_Tan_Small = "Cuero de Coyote 1/2 (Con Pelaje)"
+}

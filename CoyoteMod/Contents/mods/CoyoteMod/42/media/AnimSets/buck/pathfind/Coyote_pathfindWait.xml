@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>Coyote_pathfindWait</m_Name>
+	<m_AnimName>Coyote_Idle01</m_AnimName>
+	<m_BlendTime>0.40</m_BlendTime>
+    <m_Conditions>
+        <m_Name>isCoyote</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+</animNode>

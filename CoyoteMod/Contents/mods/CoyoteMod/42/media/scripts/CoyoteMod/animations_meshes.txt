@@ -1,0 +1,18 @@
+module CoyoteMod
+{
+/* PUP */
+	animationsMesh CoyotePup
+	{
+        meshFile = CoyoteMod/Skinned,
+        animationDirectory = Coyote,
+        animationPrefix = CoyotePup_,
+    }
+
+/* FEMALE & MALE */
+	animationsMesh CoyoteFemaleAndMale
+	{
+        meshFile = CoyoteMod/Skinned,
+        animationDirectory = Coyote,
+        animationPrefix = Coyote_,
+    }
+}

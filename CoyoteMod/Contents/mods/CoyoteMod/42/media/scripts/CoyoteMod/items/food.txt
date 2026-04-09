@@ -1,0 +1,116 @@
+module CoyoteMod
+{
+    imports
+	{
+        Base
+    }
+
+/* MEAT */
+    item Coyote_Steak
+	{
+        ItemType = base:food,
+        DisplayCategory = Food,
+        Weight = 0.5,
+        Icon = CoyoteSteak,
+        BadCold = true,
+        BadInMicrowave = true,
+        DangerousUncooked = true,
+        EvolvedRecipe = Pizza:20;Stew:20;Stir fry:20;Sandwich:5|Cooked;Salad:10|Cooked;Pasta:20;Rice:20;Taco:5|Cooked;Burrito:10|Cooked;AddBaitToChum:20,
+        FoodType = Horse,
+        GoodHot = true,
+        IsCookable = true,
+        MinutesToCook = 50,
+        MinutesToBurn = 70,
+        DaysFresh = 2,
+        DaysTotallyRotten = 4,
+        HungerChange = -80,
+        Calories = 500,
+        Carbohydrates = 0,
+        Lipids = 25,
+        Proteins = 50,
+        FishingLure = true,
+        CookingSound = FryingFood,
+        UnhappyChange = 50,
+        StaticModel = CoyoteSteak,
+        WorldStaticModel = CoyoteSteak,
+    }
+    item Coyote_Loin
+	{
+        ItemType = base:food,
+        DisplayCategory = Food,
+        Weight = 0.5,
+        Icon = CoyoteLoin,
+        BadCold = true,
+        BadInMicrowave = true,
+        DangerousUncooked = true,
+        EvolvedRecipe = Pizza:20;Stew:20;Stir fry:20;Sandwich:5|Cooked;Salad:10|Cooked;Pasta:20;Rice:20;Taco:5|Cooked;Burrito:10|Cooked;AddBaitToChum:20,
+        FoodType = Horse,
+        GoodHot = true,
+        IsCookable = true,
+        MinutesToCook = 50,
+        MinutesToBurn = 70,
+        DaysFresh = 2,
+        DaysTotallyRotten = 4,
+        HungerChange = -80,
+        Calories = 500,
+        Carbohydrates = 0,
+        Lipids = 25,
+        Proteins = 50,
+        FishingLure = true,
+        CookingSound = FryingFood,
+        UnhappyChange = 50,
+        StaticModel = CoyoteLoin,
+        WorldStaticModel = CoyoteLoin,
+    }
+
+/* HEADS */
+    item CoyotePup_Head
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 0.8,
+        ItemType = base:food,
+        Icon = Head_CoyotePup,
+        DaysFresh = 5,
+        DaysTotallyRotten = 7,
+        Tags = base:animalhead,
+        StaticModel = CoyotePup_Head,
+		WorldStaticModel = CoyotePup_Head,
+    }
+    item CoyoteFemale_Head
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 1.3,
+        ItemType = base:food,
+        Icon = Head_Coyote,
+        DaysFresh = 5,
+        DaysTotallyRotten = 7,
+        Tags = base:animalhead,
+        StaticModel = CoyoteFemale_Head,
+		WorldStaticModel = CoyoteFemale_Head,
+    }
+    item CoyoteMale_Head
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 1.3,
+        ItemType = base:food,
+        Icon = Head_Coyote,
+        DaysFresh = 5,
+        DaysTotallyRotten = 7,
+        Tags = base:animalhead,
+        StaticModel = CoyoteMale_Head,
+		WorldStaticModel = CoyoteMale_Head,
+    }
+
+/* DUNG */
+    item Dung_Coyote
+    {
+        DisplayCategory = Junk,
+        Weight = 0.5,
+        ItemType = base:food,
+        CantEat = true,
+        Tags = base:iscompostable,
+        Icon = Dung_Coyote,
+        WorldStaticModel = Dung_Coyote,
+        IsDung = true,
+    }
+}

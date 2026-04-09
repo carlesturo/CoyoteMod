@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>Coyote_falldown</m_Name>
+	<m_AnimName>Coyote_Death</m_AnimName>
+	<m_DeferredBoneName>Bip01</m_DeferredBoneName>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+    <m_Conditions>
+        <m_Name>isCoyote</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Events x_name="c3721fea-4a91-4dcf-8375-3b0f2b204ee6">
+		<m_EventName>PlayDeathSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="21359ccd-38f4-4f6f-b945-99eb0986d090">
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.35</m_TimePc>
+		<m_ParameterValue>fallover</m_ParameterValue>
+	</m_Events>
+</animNode>

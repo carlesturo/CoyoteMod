@@ -1,0 +1,132 @@
+module CoyoteMod
+{
+    imports
+	{
+        Base
+    }
+
+/* SKULLS */
+    item CoyotePup_Skull
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 0.3,
+        ItemType = base:normal,
+        Icon = Skull_CoyotePup,
+        Tags = base:animalskull,
+		StaticModel = CoyotePup_Skull,
+        WorldStaticModel = CoyotePup_Skull,
+    }
+    item CoyoteFemale_Skull
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 0.5,
+        ItemType = base:normal,
+        Icon = Skull_Coyote,
+        Tags = base:animalskull,
+		StaticModel = CoyoteFemale_Skull,
+        WorldStaticModel = CoyoteFemale_Skull,
+    }
+    item CoyoteMale_Skull
+    {
+        DisplayCategory = AnimalPart,
+        Weight = 0.5,
+        ItemType = base:normal,
+        Icon = Skull_Coyote,
+        Tags = base:animalskull,
+		StaticModel = CoyoteMale_Skull,
+        WorldStaticModel = CoyoteMale_Skull,
+    }
+
+/* PUP LEATHERS */
+    item CoyotePupLeather_Full
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Small,
+        Tags = base:leatherfullsmall,
+        Tooltip = Tooltip_Leather_SofteningBeam,
+    }
+    item CoyotePupLeather_Fur
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Small,
+        Tags = base:leatherfursmall,
+        Tooltip = Tooltip_Leather_TanninBarrel,
+    }
+    item CoyotePupLeather_Fur_Tan_Wet
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Small,
+        Tags = base:leatherfurwetsmall,
+        Tooltip = Tooltip_Leather_DryingRack,
+    }
+    item CoyotePupLeather_Fur_Tan
+    {
+        DisplayCategory = Material,
+        ItemType = base:moveable,
+        Weight = 1.0,
+        Icon = LeatherHide_Coyote,
+		WorldObjectSprite = rugs_animals_coyote_17,
+        WorldStaticModel = Leather_Coyote_Small,
+        Tags = base:leatherfurtannedsmall,
+    }
+
+/* FEMALE & MALE LEATHERS */
+    item CoyoteLeather_Full
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Medium,
+        Tags = base:leatherfullmedium,
+        Tooltip = Tooltip_Leather_SofteningBeam,
+    }
+    item CoyoteLeather_Fur
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Medium,
+        Tags = base:leatherfurmedium,
+        Tooltip = Tooltip_Leather_TanninBarrel,
+    }
+    item CoyoteLeather_Fur_Tan_Wet
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Medium,
+        Tags = base:leatherfurwetmedium,
+        Tooltip = Tooltip_Leather_DryingRack,
+    }
+    item CoyoteLeather_Fur_Tan
+    {
+        DisplayCategory = Material,
+        ItemType = base:moveable,
+        Weight = 3.0,
+        Icon = LeatherHide_Coyote,
+        WorldObjectSprite = rugs_animals_coyote_1,
+        WorldStaticModel = Leather_Coyote_Medium,
+        Tags = base:leatherfurtannedmedium,
+    }
+    item CoyoteLeather_Fur_Tan_Small
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = LeatherHide_Coyote,
+        WorldStaticModel = Leather_Coyote_Small,
+        Tags = base:leatherfurtannedsmall,
+    }
+}

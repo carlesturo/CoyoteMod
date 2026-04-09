@@ -1,0 +1,10 @@
+IGUI_EN = {
+    IGUI_AnimalType_coyotemale = "Coyote Male"
+    IGUI_AnimalType_coyotefemale = "Coyote Female"
+    IGUI_AnimalType_coyotepup = "Coyote Pup"
+    IGUI_AnimalType_Global_coyote = "Coyote"
+    IGUI_Animal_Group_coyote = "Coyote"
+    IGUI_Breed_eastern = "Eastern"
+    IGUI_MigrationGroup_coyote = "Coyote"
+    IGUI_AnimalTracks_fleshfeed = "Feeding Site"
+}

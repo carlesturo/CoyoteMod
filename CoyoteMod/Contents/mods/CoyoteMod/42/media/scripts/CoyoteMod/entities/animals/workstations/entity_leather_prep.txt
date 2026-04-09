@@ -1,0 +1,127 @@
+module Base
+{
+    entity DryingRackMedium
+    {
+        component SpriteOverlayConfig
+        {
+            style CoyoteLeather
+            {
+                progress 0
+                {
+                    face S
+                    {
+                        layer
+                        {
+                            row = crafted_coyote_0 crafted_coyote_1,
+                        }
+                    }
+                    face E
+                    {
+                        layer
+                        {
+                            row = crafted_coyote_3,
+                            row = crafted_coyote_2,
+                        }
+                    }
+                }
+                progress 50
+                {
+                    face S
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_0 crafted_skins_drying_coyote_1,
+                        }
+                    }
+                    face E
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_3,
+                            row = crafted_skins_drying_coyote_2,
+                        }
+                    }
+                }
+                progress 100
+                {
+                    face S
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_4 crafted_skins_drying_coyote_5,
+                        }
+                    }
+                    face E
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_7,
+                            row = crafted_skins_drying_coyote_6,
+                        }
+                    }
+                }
+            }
+		}
+	}
+
+    entity DryingRackSmall
+    {
+        component SpriteOverlayConfig
+        {
+            style CoyotePupLeather
+            {
+                progress 0
+                {
+                    face S
+                    {
+                        layer
+                        {
+                            row = crafted_coyote_8,
+                        }
+                    }
+                    face E
+                    {
+                        layer
+                        {
+                            row = crafted_coyote_9,
+                        }
+                    }
+                }
+                progress 50
+                {
+                    face S
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_8,
+                        }
+                    }
+                    face E
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_9,
+                        }
+                    }
+                }
+                progress 100
+                {
+                    face S
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_12,
+                        }
+                    }
+                    face E
+                    {
+                        layer
+                        {
+                            row = crafted_skins_drying_coyote_13,
+                        }
+                    }
+                }
+            }
+		}
+	}
+}

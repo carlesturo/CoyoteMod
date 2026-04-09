@@ -1,0 +1,10 @@
+IGUI_ES = {
+    IGUI_AnimalType_coyotemale = "Coyote Macho"
+    IGUI_AnimalType_coyotefemale = "Coyote Hembra"
+    IGUI_AnimalType_coyotepup = "Cachorro de Coyote"
+    IGUI_AnimalType_Global_coyote = "Coyote"
+    IGUI_Animal_Group_coyote = "Coyote"
+    IGUI_Breed_eastern = "Oriental"
+    IGUI_MigrationGroup_coyote = "Coyote"
+    IGUI_AnimalTracks_fleshfeed = "Zona de Alimentación"
+}

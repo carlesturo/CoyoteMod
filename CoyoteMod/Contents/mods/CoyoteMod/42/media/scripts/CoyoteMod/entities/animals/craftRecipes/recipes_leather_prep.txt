@@ -1,0 +1,53 @@
+module Base
+{
+    craftRecipe DryMediumLeather
+    {
+        itemMapper DryLeatherMedium
+        {
+            CoyoteMod.CoyoteLeather_Fur_Tan = CoyoteMod.CoyoteLeather_Fur_Tan_Wet,
+        }
+        overlayMapper
+        {
+            CoyoteMod.CoyoteLeather_Fur_Tan_Wet = CoyoteLeather,
+        }
+    }
+
+    craftRecipe DrySmallLeather
+    {
+        itemMapper DryLeatherSmall
+        {
+            CoyoteMod.CoyotePupLeather_Fur_Tan = CoyoteMod.CoyotePupLeather_Fur_Tan_Wet,
+        }
+        overlayMapper
+        {
+            CoyoteMod.CoyotePupLeather_Fur_Tan_Wet = CoyotePupLeather,
+        }
+    }
+
+    craftRecipe TanLeather
+    {
+        itemMapper TanLeatherMapper
+        {
+            CoyoteMod.CoyoteLeather_Fur_Tan_Wet = CoyoteMod.CoyoteLeather_Fur,
+            CoyoteMod.CoyotePupLeather_Fur_Tan_Wet = CoyoteMod.CoyotePupLeather_Fur,
+        }
+    }
+
+    craftRecipe RemoveFlesh
+    {
+        itemMapper RemoveFleshMapper
+        {
+            CoyoteMod.CoyoteLeather_Fur = CoyoteMod.CoyoteLeather_Full,
+            CoyoteMod.CoyotePupLeather_Fur = CoyoteMod.CoyotePupLeather_Full,
+        }
+    }
+
+    craftRecipe RemoveFur
+    {
+        itemMapper RemoveFurMapper
+        {
+            Base.Leather_Crude_Medium = CoyoteMod.CoyoteLeather_Fur,
+            Base.Leather_Crude_Small = CoyoteMod.CoyotePupLeather_Fur,
+        }
+    }
+}

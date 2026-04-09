@@ -1,0 +1,12 @@
+module Base
+{
+    craftRecipe SliceHead
+    {
+        itemMapper HeadSkullMapper
+        {
+            CoyoteMod.CoyotePup_Skull = CoyoteMod.CoyotePup_Head,
+            CoyoteMod.CoyoteFemale_Skull = CoyoteMod.CoyoteFemale_Head,
+            CoyoteMod.CoyoteMale_Skull = CoyoteMod.CoyoteMale_Head,
+        }
+    }
+}

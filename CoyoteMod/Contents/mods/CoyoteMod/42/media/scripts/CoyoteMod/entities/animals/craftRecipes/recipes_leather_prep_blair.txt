@@ -1,0 +1,10 @@
+module Base
+{
+    craftRecipe CutLeatherInHalf
+    {
+        itemMapper leatherMapper
+        {
+            CoyoteMod.CoyoteLeather_Fur_Tan_Small = CoyoteMod.CoyoteLeather_Fur_Tan,
+        }
+    }
+}

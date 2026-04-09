@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>CoyotePup_idleSit</m_Name>
+	<m_AnimName>CoyotePup_SittingIdle</m_AnimName>
+	<m_BlendTime>0.50</m_BlendTime>
+    <m_Conditions>
+        <m_Name>isCoyotePup</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Conditions x_name="ca8e32e9-e548-4f0f-9c3c-5f2c050128bb">
+		<m_Name>idleAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>sit</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>CoyotePup_idle1</m_Target>
+		<m_AnimName>CoyotePup_SittingToStanding</m_AnimName>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>CoyotePup_idle2</m_Target>
+		<m_AnimName>CoyotePup_SittingToStanding</m_AnimName>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>CoyotePup_idle3</m_Target>
+		<m_AnimName>CoyotePup_SittingToStanding</m_AnimName>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>CoyotePup_idle</m_Target>
+		<m_AnimName>CoyotePup_SittingToStanding</m_AnimName>
+	</m_Transitions>
+</animNode>
