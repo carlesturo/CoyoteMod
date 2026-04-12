@@ -3,7 +3,7 @@ module CoyoteMod
 /* PUP */
 	animationsMesh CoyotePup
 	{
-        meshFile = CoyoteMod/Skinned,
+        meshFile = CoyoteMod/Skinned/CoyotePup,
         animationDirectory = Coyote,
         animationPrefix = CoyotePup_,
     }
@@ -11,7 +11,7 @@ module CoyoteMod
 /* FEMALE & MALE */
 	animationsMesh CoyoteFemaleAndMale
 	{
-        meshFile = CoyoteMod/Skinned,
+        meshFile = CoyoteMod/Skinned/Coyote,
         animationDirectory = Coyote,
         animationPrefix = Coyote_,
     }
