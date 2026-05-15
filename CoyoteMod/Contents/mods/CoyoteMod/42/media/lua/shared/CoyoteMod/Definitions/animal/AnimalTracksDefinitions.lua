@@ -7,7 +7,7 @@ AnimalTracksDefinitions.trackType["fleshfeed"].actionType = "eat";
 AnimalTracksDefinitions.trackType["fleshfeed"].chanceToFindTrack = 100;
 AnimalTracksDefinitions.trackType["fleshfeed"].minskill = 1;--]]
 
-AnimalTracksDefinitions.animallist = {};
+AnimalTracksDefinitions.animallist = AnimalTracksDefinitions.animallist or {};
 AnimalTracksDefinitions.animallist["coyote"] = {}; -- "deer" should correspond to the migration group (see MigrationGroupDefinitions.lua)
 AnimalTracksDefinitions.animallist["coyote"].tracks = {}; -- define all tracks this animal can leave
 AnimalTracksDefinitions.animallist["coyote"].tracks["footstep"] = copyTable(AnimalTracksDefinitions.trackType["footstep"]);
@@ -21,7 +21,7 @@ AnimalTracksDefinitions.animallist["coyote"].tracks["flattenedherb"] = copyTable
 AnimalTracksDefinitions.animallist["coyote"].tracks["fur"] = copyTable(AnimalTracksDefinitions.trackType["fur"]);
 AnimalTracksDefinitions.animallist["coyote"].tracks["fur"].item = "Base.FurTuft_Brownlight";
 AnimalTracksDefinitions.animallist["coyote"].skillToIdentify = 4; -- min tracking skill required to know exactly what the animal left that track, if under this skill, check "trackType"
-AnimalTracksDefinitions.animallist["coyote"].trackType = "large"; -- if you don't have min tracking skill to properly identify this track, it'll say "large animal footstep" or "large animal poop" etc. can be large, medium or small.
+AnimalTracksDefinitions.animallist["coyote"].trackType = "medium"; -- if you don't have min tracking skill to properly identify this track, it'll say "large animal footstep" or "large animal poop" etc. can be large, medium or small.
 AnimalTracksDefinitions.animallist["coyote"].trackChance = {}; -- during each action we have a chance to drop a track
 AnimalTracksDefinitions.animallist["coyote"].trackChance["walk"] = 800; -- per tick
 AnimalTracksDefinitions.animallist["coyote"].trackChance["eat"] = 200;

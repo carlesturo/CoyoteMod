@@ -12,3 +12,19 @@ CoyoteUtils.isCoyotePup = function(animal)
 end
 
 return CoyoteUtils
+
+--[[
+local COYOTE_TYPES = {
+	["coyotemale"] = true,
+	["coyotefemale"] = true,
+	["coyotepup"] = true
+} 
+
+local CoyoteUtils = {}
+
+CoyoteUtils.isCoyote = function(animal)
+	return COYOTE_TYPES[animal:getAnimalType()] or false
+end
+
+return CoyoteUtils
+--]]

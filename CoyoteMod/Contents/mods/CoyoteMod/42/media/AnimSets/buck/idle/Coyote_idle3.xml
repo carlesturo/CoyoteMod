@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animNode x_extends="Coyote_idle2.xml">
 	<m_Name>Coyote_idle3</m_Name>
-	<m_AnimName>Coyote_Idle03</m_AnimName>
+	<m_AnimName>Coyote_Howl</m_AnimName>
     <m_Conditions>
         <m_Name>isCoyote</m_Name>
         <m_Type>BOOL</m_Type>

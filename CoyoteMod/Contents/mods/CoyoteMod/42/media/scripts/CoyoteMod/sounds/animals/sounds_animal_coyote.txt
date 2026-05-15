@@ -1,0 +1,110 @@
+module CoyoteMod
+{
+    sound AnimalVoiceCoyoteIdle
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Idle.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalVoiceCoyoteDeath
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Death.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalVoiceCoyoteStressed
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Stressed.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalVoiceCoyotePain
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Pain.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalFootstepsCoyoteWalkFront
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Front.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalFootstepsCoyoteWalkBack
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Back.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalFootstepsCoyoteRun
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Run.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalFootstepsCoyoteTrot
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Trot.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+
+    sound AnimalFoleyCoyoteBodyfall
+    {
+        category = Animals,
+        is3D = true,
+        clip
+		{
+            file = media/sound/CoyoteMod/Bodyfall.ogg,
+            distanceMin = 1,
+            distanceMax = 30,
+        }
+    }
+}
